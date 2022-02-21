@@ -1,0 +1,37 @@
+{
+  "name": "ajs_hw6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergeiSeledkov/ajs_hw6.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SergeiSeledkov/ajs_hw6/issues"
+  },
+  "homepage": "https://github.com/SergeiSeledkov/ajs_hw6#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.3",
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "babel-jest": "^27.5.1",
+    "babel-loader": "^8.2.3",
+    "eslint": "^8.9.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "jest": "^27.5.1",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "core-js": "^3.21.1"
+  }
+}
